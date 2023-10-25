@@ -1,5 +1,4 @@
 module Main where
-import Data.Bits (Bits(xor))
 
 main :: IO ()
 main = putStrLn "Hello, Haskell!"
