@@ -70,3 +70,4 @@ module TypeSystem where
 
     -- Functions as values
 
+    newtype StringParser = StringParser {runStringParser:: String -> (String, String)}
