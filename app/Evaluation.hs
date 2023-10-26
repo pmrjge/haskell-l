@@ -5,6 +5,7 @@ module Evaluation where
                             in degrees !! converted
     
 
+    epicCycle :: [a] -> [a]
     epicCycle ls = cycleHelper ls
                     where
                         cycleHelper [] = epicCycle ls

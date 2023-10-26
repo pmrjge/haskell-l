@@ -1,11 +1,12 @@
 module Main where
 
-import LookAt
+    import Prelude hiding(fib)
+    import Fibonacci(fib)
 
-main :: IO ()
-main = do
-    let x = 1 +++ 2*3
-    print x
+    main :: IO ()
+    main = do
+        let y = [fib n | n <-[1..10]]
+        print y
     
 
 
